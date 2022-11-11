@@ -12,17 +12,17 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/views/homepage.html");
 });
 //about
-app.get("/", (req, res) => {
+app.get("/about", (req, res) => {
   res.sendFile(__dirname + "/views/about.html");
 });
 
 //work
-app.get("/", (req, res) => {
+app.get("/work", (req, res) => {
   res.sendFile(__dirname + "/views/work.html");
 });
 
 //gallery
-app.get("/", (req, res) => {
+app.get("/gallery", (req, res) => {
   res.sendFile(__dirname + "/views/gallery.html");
 });
 
