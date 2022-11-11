@@ -1,6 +1,11 @@
-const express = require("express"); // loads express package
-const app = express(); // this executes an express server
-const port = 3000; // defining our server port
+// loads express package
+const express = require("express");
+
+// this executes an express server
+const app = express();
+
+// defining our server port
+const port = 3000;
 
 /* configuring express and telling where my static files are located*/
 app.use(express.static("public"));
