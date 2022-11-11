@@ -25,3 +25,8 @@ app.get("/", (req, res) => {
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/views/gallery.html");
 });
+
+// server started
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
+});
